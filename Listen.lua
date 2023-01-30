@@ -1,3 +1,11 @@
+--[[
+	Credits: Pry#1826
+	
+	This is made for educational purposes only
+
+	A demon recreation of the PlayerAdded / PlayerRemoving event(s)
+]]--
+
 local Services = setmetatable({}, {
 	__index = function(self, Name)
 		return rawset(self, Name, game:GetService(Name))[Name]
