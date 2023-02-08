@@ -1,7 +1,7 @@
 --[[
 	Credits: iPryle
 	
-	This is made for educational purposes only.
+	This was made for educational purposes only.
 ]]--
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -20,7 +20,7 @@ for Index, Value in Values do
 	Datas[Value[1]] = DataStoreService:GetDataStore(Value[1])
 end
 
-local function GetAsync(Key: string,Name: string)
+local function GetAsync(Key: string,Name: string): number | nil
 	assert(Datas[Name], "Error, try again later")
 
 	return Datas[Name]:GetAsync(Key)
