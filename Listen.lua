@@ -3,7 +3,7 @@
 	
 	This is made for educational purposes only
 
-	A demon recreation of the PlayerAdded / PlayerRemoving event(s)
+	A demo recreation of the PlayerAdded / PlayerRemoving event(s)
 
 	Thanks to Clueless for the Listen.New() event constructor
 ]]--
