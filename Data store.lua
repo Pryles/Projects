@@ -1,9 +1,3 @@
---[[
-	Credits: iPryle
-	
-	This was made for educational purposes only.
-]]--
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local DataStoreService = game:GetService("DataStoreService")
 
